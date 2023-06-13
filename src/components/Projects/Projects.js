@@ -4,11 +4,11 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import editor from "../../Assets/Projects/codeEditor.png";
+import emotion from "../../Assets/Sociopedia.png"
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
-const emotion="https://th.bing.com/th/id/OIP.Z6hTDv9NAwKYB5B18BvTFgHaDd?pid=ImgDet&rs=1";
 
 function Projects() {
   return (
