@@ -34,8 +34,8 @@ function Projects() {
               isBlog={false}
               title="MERN Stack Social Media Clone App "
               description="New Genaration Social Media Website with MERN "
-              ghLink="https://github.com/soumyajitdey/socialmediaapp"
-              demoLink="https://blogs.soumya-jit.tech/"     
+              ghLink="https://github.com/arman-mondal/mern-social"
+              demoLink="https://socialmedia-soumyajit.vercel.app/"     
             />
           </Col>
         </Row>
