@@ -14,6 +14,84 @@ html {
   --imp-text-color: #c770f0;
 }
 
+.custom-cur {
+  cursor: url('https://img.icons8.com/3d-fluency/30/cursor.png');
+}
+
+/* With a .cur fallback */
+.custom-cur {
+  cursor: url('https://img.icons8.com/3d-fluency/30/cursor.png'),
+  url('https://img.icons8.com/3d-fluency/30/cursor.png');
+}
+
+/* With a custom hotspot */
+.custom-cur {
+  cursor: url('https://img.icons8.com/3d-fluency/30/cursor.png') 10 12;
+}
+
+/* With a non-custom fallback: */
+.custom-cur {
+  cursor: url('https://img.icons8.com/3d-fluency/30/cursor.png'),
+  move;
+}
+.seec{
+  animation: slideIn 1  2s  ;
+
+}
+
+.seeec{
+  animation: slide infinite 2s;
+}
+.sc{
+  animation: mooo infinite 30s;
+}
+@keyframes mooo {
+
+  0%{
+    transform: rotate(0deg);
+   
+  }
+  
+  50%{
+   transform: rotate(180deg);
+
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+  
+
+}
+
+.hooo:hover{
+  .huuu{
+    animation: slideIn 1 5s    ;
+  }
+
+}
+
+@keyframes slide {
+  0% {
+    transform: scale(1.1,1.1);
+
+  }
+  50%{
+    transform: scale(0.5,0.5);
+  }
+  100% {
+    transform: scale(1,1);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(500px) scale(.2);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }

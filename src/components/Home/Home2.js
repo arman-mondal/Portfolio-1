@@ -11,15 +11,17 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+
+
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section hooo" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={8} className="home-about-description huuu">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            <p className="home-about-body huuu">
             I am a student of Electronics and Communication 
 Engineering and the domains that I am specialized include electronic circuit and 
 coding
@@ -49,14 +51,14 @@ coding
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar huuu">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid " alt="avatar" />
             </Tilt>
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col md={12} className="home-about-social huuu">
             <h1>Contact me </h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
