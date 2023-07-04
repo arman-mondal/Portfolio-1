@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+.skill:hover .skill {
+  background-color: transparent;
+
+
+
+}
+
+
+.hidden {
+  opacity: 0;
+  width: 100%;
+  transition: opacity 0.3s;
+  font-size: 10px;
+}
+
+.skill:hover .hidden {
+
+  opacity: 1;
+
 }

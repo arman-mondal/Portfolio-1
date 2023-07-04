@@ -9,19 +9,20 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import AOS from "aos";
 
 function Home2() {
 
 
   return (
-    <Container fluid className="home-about-section hooo" id="about">
+    <Container  fluid className="home-about-section " id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description huuu">
-            <h1 style={{ fontSize: "2.6em" }}>
+          <Col md={8} className="home-about-description ">
+            <h1 data-aos="fade-up" style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body huuu">
+            <p className="home-about-body ">
             I am a student of Electronics and Communication 
 Engineering and the domains that I am specialized include electronic circuit and 
 coding
